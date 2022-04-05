@@ -1,0 +1,560 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header[data-v-5a9854c0] {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  height: 3.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.0625rem solid #dbdbdb;
+  background-color: #FFFFFF;
+  padding-top: 1.25rem;
+}
+.header .hamburger[data-v-5a9854c0] {
+  font-size: 1.5rem;
+}
+.header .maikefeng[data-v-5a9854c0] {
+  font-size: 1.5rem;
+}
+.header .search[data-v-5a9854c0] {
+  width: 17.5rem;
+  height: 1.875rem;
+  position: relative;
+}
+.header .search .search-input[data-v-5a9854c0] {
+  width: 17.5rem;
+  height: 1.875rem;
+  font-size: 0.9375rem;
+  line-height: 1.875rem;
+  text-indent: 2em;
+  background-color: #f6f6f6;
+  border-radius: 0.9375rem;
+}
+.header .search .search-icon[data-v-5a9854c0] {
+  position: absolute;
+  top: 50%;
+  left: 0.625rem;
+  transform: translateY(-50%);
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.swiper[data-v-b188ec42] {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5.625rem;
+}
+.swiper .swiper-wrapper[data-v-b188ec42] {
+  width: 95%;
+  border-radius: 0.4375rem;
+  overflow: hidden;
+}
+.swiper .swiper-wrapper .wrapper-item[data-v-b188ec42] {
+  width: 100%;
+  border-radius: 0.4375rem;
+}
+.swiper .swiper-wrapper .wrapper-item uni-image[data-v-b188ec42] {
+  width: 100%;
+  height: 160px;
+}
+.swiper .swiper-wrapper .wrapper-item .message[data-v-b188ec42] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.625rem;
+  color: #FFFFFF;
+  padding: 0.1875rem 0.4375rem;
+  border-radius: 0.5625rem 0 0.3125rem 0;
+}
+.swiper .swiper-wrapper .wrapper-item .message.title-color1[data-v-b188ec42] {
+  background-color: red;
+}
+.swiper .swiper-wrapper .wrapper-item .message.title-color2[data-v-b188ec42] {
+  background-color: #409EFF;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.dragon[data-v-7f120574] {
+  overflow-x: auto;
+  display: flex;
+  height: 6.25rem;
+  margin-top: 0.3125rem;
+}
+.dragon[data-v-7f120574]::-webkit-scrollbar {
+  width: 0;
+}
+.dragon .dragon-wrapper[data-v-7f120574] {
+  width: 2400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dragon .dragon-wrapper .dragon-top[data-v-7f120574] {
+  width: 3.75rem;
+  text-align: center;
+}
+.dragon .dragon-wrapper .dragon-top uni-image[data-v-7f120574] {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: red;
+  border-radius: 1.25rem;
+}
+.dragon .dragon-wrapper .title[data-v-7f120574] {
+  width: 3.75rem;
+  font-size: 0.625rem;
+  text-align: center;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/*通过该函数设置字体大小，后期方便统一管理；*/
+.list[data-v-c41c0d00] {
+  border-top: 0.0625rem solid #f1f1f1;
+}
+.list .header[data-v-c41c0d00] {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.list .header .header-title[data-v-c41c0d00] {
+  font-size: 1.1875rem;
+  font-weight: 530;
+  text-indent: 0.625rem;
+}
+.list .header .header-more[data-v-c41c0d00] {
+  position: relative;
+  height: 1.25rem;
+  margin-left: auto;
+  margin-right: 0.25rem;
+}
+.list .header .header-more .more-btn[data-v-c41c0d00] {
+  width: 3.125rem;
+  height: 1.25rem;
+  font-size: 0.625rem;
+  line-height: 1.25rem;
+  padding: 0;
+  border-radius: 0.625rem;
+  text-indent: -1em;
+}
+.list .header .header-more .more-icon[data-v-c41c0d00] {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  font-size: 1.5rem;
+  transform: translateY(-50%);
+}
+.list .content[data-v-c41c0d00] {
+  display: flex;
+  height: 8.6875rem;
+  overflow-x: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list .content[data-v-c41c0d00]::-webkit-scrollbar {
+  width: 0;
+}
+.list .content .wrapper[data-v-c41c0d00] {
+  width: 5.3125rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 0.625rem;
+}
+.list .content .wrapper .wrapper-image[data-v-c41c0d00] {
+  width: 5.3125rem;
+  height: 5.3125rem;
+  border-radius: 0.3125rem;
+}
+.list .content .wrapper .wrapper-icon[data-v-c41c0d00] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(243, 243, 243, 0.2);
+  font-size: 0.625rem;
+  color: #FFFFFF;
+}
+.list .content .wrapper .wrapper-message[data-v-c41c0d00] {
+  display: inline-block;
+  width: 5.3125rem;
+  height: 1.25rem;
+  font-size: 0.625rem;
+}
+.list .content .wrapper .wrapper-message[data-v-c41c0d00] span {
+  display: inline-block;
+  width: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header[data-v-0d8b4846] {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.header .header-title[data-v-0d8b4846] {
+  font-size: 1.1875rem;
+  font-weight: 530;
+  text-indent: 0.625rem;
+}
+.header .header-more[data-v-0d8b4846] {
+  position: relative;
+  height: 1.25rem;
+  margin-left: auto;
+  margin-right: 0.25rem;
+}
+.header .header-more .more-btn[data-v-0d8b4846] {
+  width: 3.125rem;
+  height: 1.25rem;
+  font-size: 0.625rem;
+  line-height: 1.25rem;
+  padding: 0;
+  border-radius: 0.625rem;
+  text-indent: -1em;
+}
+.header .header-more .more-icon[data-v-0d8b4846] {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  font-size: 1.5rem;
+  transform: translateY(-50%);
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.sidebar[data-v-c7fab58e] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.sidebar .sidebar-left[data-v-c7fab58e] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  background-color: #F5F5F5;
+}
+.sidebar .sidebar-left .left-header[data-v-c7fab58e] {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2.5rem;
+  width: 80%;
+}
+.sidebar .sidebar-left .left-header uni-image[data-v-c7fab58e] {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  background-color: red;
+}
+.sidebar .sidebar-left .left-header .userName[data-v-c7fab58e] {
+  font-size: 1.1875rem;
+  padding-left: 0.625rem;
+  font-weight: 500;
+}
+.sidebar .sidebar-left .left-floor[data-v-c7fab58e] {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.625rem;
+  background-color: #FFFFFF;
+  border-radius: 0.625rem;
+}
+.sidebar .sidebar-left .left-floor .floor-item[data-v-c7fab58e] {
+  height: 3.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sidebar .sidebar-left .left-floor .floor-item .left[data-v-c7fab58e] {
+  font-size: 1.5rem;
+  margin-left: 0.625rem;
+}
+.sidebar .sidebar-left .left-floor .floor-item .message[data-v-c7fab58e] {
+  width: 9.375rem;
+  margin-left: 0.625rem;
+}
+.sidebar .sidebar-left .left-floor .floor-item .right[data-v-c7fab58e] {
+  font-size: 1.5rem;
+  margin-left: 0.625rem;
+  color: #8f8f94;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.header[data-v-24813aa2] {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.header .header-title[data-v-24813aa2] {
+  font-size: 1.1875rem;
+  font-weight: 530;
+  text-indent: 0.625rem;
+}
+.header .header-more[data-v-24813aa2] {
+  position: relative;
+  height: 1.25rem;
+  margin-left: auto;
+  margin-right: 0.25rem;
+}
+.header .header-more .more-btn[data-v-24813aa2] {
+  width: 3.125rem;
+  height: 1.25rem;
+  font-size: 0.625rem;
+  line-height: 1.25rem;
+  padding: 0;
+  border-radius: 0.625rem;
+  text-indent: -1em;
+}
+.header .header-more .more-icon[data-v-24813aa2] {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  font-size: 1.5rem;
+  transform: translateY(-50%);
+}
+.swiper .swiper-item[data-v-24813aa2] {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+.swiper .swiper-item .align-image[data-v-24813aa2] {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.3125rem;
+  margin-left: 0.625rem;
+  overflow: hidden;
+}
+.swiper .swiper-item .hotTopic-image[data-v-24813aa2] {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 0.3125rem;
+  margin-left: 0.625rem;
+}
+.swiper .swiper-item .song-info[data-v-24813aa2] {
+  margin-left: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.swiper .swiper-item .song-info .hotTopic-name[data-v-24813aa2] {
+  font-size: 1.0625rem;
+  font-weight: 600;
+}
+.swiper .swiper-item .song-info .hotTopic-detail[data-v-24813aa2] {
+  font-size: 0.625rem;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.fade-enter-active[data-v-57280228],
+.fade-leave-active[data-v-57280228] {
+  transition: width 1s ease;
+}
+.fade-enter-from[data-v-57280228] {
+  width: 0;
+}
+.fade-leave-to[data-v-57280228] {
+  width: 0;
+}
+.fade-leave-from[data-v-57280228] {
+  width: 100%;
+}

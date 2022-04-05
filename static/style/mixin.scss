@@ -1,0 +1,25 @@
+/*通过该函数设置字体大小，后期方便统一管理；*/
+@mixin font_size($size) {
+  @include font_dpr($size);
+}
+
+// 不换行
+@mixin no-wrap() {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+// 限制行数
+@mixin clamp($row) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $row;
+}
+@mixin clearScorp() {
+  &::-webkit-scrollbar{
+    width: 0;
+  }
+}

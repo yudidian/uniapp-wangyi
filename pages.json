@@ -1,0 +1,122 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "网易云"
+      }
+    },
+    {
+      "path": "pages/play/play",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/attention/attention",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/village/village",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        {
+          "path": "login/login",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "recommendSongs/recommendSongs",
+          "style": {
+            "navigationBarTitleText": "",
+            "enablePullDownRefresh": false
+          }
+        }
+          ,{
+                    "path" : "songDetail/songDetail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "personalCenter/personalCenter",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+    }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#DD001B",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "#ebebeb",
+    "list": [
+      {
+        "text": "发现",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/fund.png",
+        "selectedIconPath": "static/icons/fund-active.png"
+      },
+      {
+        "text": "播客",
+        "pagePath": "pages/play/play",
+        "iconPath": "static/icons/play.png",
+        "selectedIconPath": "static/icons/play-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/icons/my.png",
+        "selectedIconPath": "static/icons/my-active.png"
+      },
+      {
+        "text": "关注",
+        "pagePath": "pages/attention/attention",
+        "iconPath": "static/icons/attention.png",
+        "selectedIconPath": "static/icons/attention-active.png"
+      },
+      {
+        "text": "云村",
+        "pagePath": "pages/village/village",
+        "iconPath": "static/icons/colud.png",
+        "selectedIconPath": "static/icons/colud-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "网易云",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

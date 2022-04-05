@@ -1,0 +1,8 @@
+$font_size_title: 38 rpx;
+
+@mixin title() {
+  font-size: $font_size_title;
+  font-weight: 600;
+  color: #191919;
+  text-indent: 1em;
+}
